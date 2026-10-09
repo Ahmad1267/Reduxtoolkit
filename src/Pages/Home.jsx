@@ -12,9 +12,10 @@ function Home() {
     <>
     <Header/>
        <div className="min-h-screen bg-gray-200 px-5 py-12">
-<button className='bg-white w-[80px] h-[30px] cursor-pointer' onClick={()=>dispatch(increment())}>Increment</button>
-  <br/>
-  <button className='bg-white w-[80px] h-[30px] cursor-pointer' onClick={()=>dispatch(decrement())}>decrement</button>
+        <div className=''><button className='bg-white w-[90px] h-[30px] cursor-pointer  rounded-xl' onClick={()=>dispatch(increment())}>Increment</button>
+</div>
+  <div>  <button className='bg-white w-[90px] h-[30px] cursor-pointer rounded-xl mt-2' onClick={()=>dispatch(decrement())}>Decrement</button>
+</div>
 
   {/* Main Heading */}
   <div className="max-w-5xl mx-auto">
